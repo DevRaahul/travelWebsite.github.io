@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: azure;
+}
+
+.navbar {
+  font-size: 20px;
+  padding: 25px 0 !important;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar .navbar-brand {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+.home-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  color: #ffff;
+}
+
+.partial-trans {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.feedback-img {
+  border-radius: 10px;
+  box-shadow: 0 15px 15px black;
+}
+
+.feedback-person-img {
+  height: 10vh !important;
+  margin-bottom: 60px;
+}
+
+.mini-Gallery {
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+.place-title,
+.learn-more {
+  position: absolute;
+  left: 20px;
+}
+
+.place-title {
+  top: 20px;
+}
+
+.learn-more {
+  background-color: coral;
+  padding: 10px;
+  bottom: 20px;
+  border-radius: 10px;
+  left: 5;
+}
+
+.location-img {
+  width: 350px;
+  height: 510px;
+}
+
+.heart-logo {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+}
+
+.video-text {
+  position: absolute;
+  top: 35%;
+  left: 100px;
+  color: #000;
+}
+
+/* Footer classes */
+.main-footer {
+  color: #ffff;
+  background-color: #000;
+}
+
+.footer-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.social-icons {
+  position: absolute;
+  padding: 5px;
+}
+
+.insta-text {
+  color: #da5c63;
+}
+
+.contact_form {
+  height: 100%;
+}
+
+.home-page {
+  background: #ffff url(../assets/new_bg.jpg) no-repeat center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.about-us {
+  background: #ffff url(../assets/abt-us.jpg) no-repeat center;
+  height: 60vh;
+  background-size: cover;
+}
+
+.about-us-text {
+  position: relative;
+  top: 200px;
+  font-family: "Redressed", cursive;
+}
+
+.tour-text {
+  font-family: "Rubik", sans-serif;
+}
+
+.hotel-page {
+  background: #ffff url(../assets/hotel_bg.jpg) no-repeat center;
+  height: 40vh;
+  background-size: cover;
+}
+
+.hotel-review {
+  font-family: system-ui cursive;
+  position: absolute;
+  top: 15vh;
+  right: 79vh;
+}
